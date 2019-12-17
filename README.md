@@ -26,4 +26,4 @@ On windows :
 On macOS and Linux :                                                                                                                       
 ```python3 -m venv env``` 
   
-Which env is the location to create the virtual environment.  
+Which *env* is the location to create the virtual environment.  
