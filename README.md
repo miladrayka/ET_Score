@@ -44,7 +44,8 @@ Which *env* is the location to create the virtual environment. Now you can insta
   
   for example:  
   
-  ``` ./1a1e/1a1e_ligand.mol2
+  ``` 
+      ./1a1e/1a1e_ligand.mol2
       ./1a1e/1a1e_protein.pdb
       ./1a4k/1a4k_ligand.mol2
       ./1a4k/1a4k_protein.pdb
