@@ -21,13 +21,19 @@ Dependecies:
 For installing first make a virtual environment and activate it.  
   
 On windows:                                                                                                                               
-```python py -m venv env
-   .\env\Scripts\activate```
+```
+   python py -m venv env
+   .\env\Scripts\activate
+```
   
 On macOS and Linux:                                                                                                                       
-```python3 -m venv env
-   source env/bin/activate``` 
+```
+   python3 -m venv env
+   source env/bin/activate
+```
   
 Which *env* is the location to create the virtual environment. Now you can install packages: 
-```pip install *package_name*```
+```
+   pip install *package_name*
+```
 
