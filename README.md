@@ -63,8 +63,9 @@ Which *env* is the location to create the virtual environment. Now you can insta
    python train_test.py -h
    python train_test.py features_file.xlsx test_list_file.txt binding_affinity_file.xlsx -y True
 ```
+
 ### 4- Use a trained model for predicting pKd values for new samples
-    If you don't want to train your model, you can simply use *et_model.sav* which is our best trained model or ET-Score. For doing thi  task *predict.py* should be used.
+   If you don't want to train your model, you can simply use *et_model.sav* which is our best trained model or ET-Score. For doing thi  task *predict.py* should be used.
     
  ``` 
     python predict.py -h
