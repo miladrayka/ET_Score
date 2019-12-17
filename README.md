@@ -37,9 +37,14 @@ Which *env* is the location to create the virtual environment. Now you can insta
    pip install *package_name*
 ```
 ## Usage
-###1- Preparing ligand and protein file  
+### 1- Preparing ligand and protein file  
 
   a- Ligand and protein structure should be saved in .mol2 and .pdb format files respectively.  
   b- Each ligand and protein files for a specific complex must be placed in a same folder. 
   
-###2- Generating features
+### 2- Generating features  
+  *generate_feature.py* is used for generating features of ET-Score:  
+``` 
+   python generate_feature.py -h  
+   python generate_feature.py -d file_directory  
+```
