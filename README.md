@@ -40,7 +40,15 @@ Which *env* is the location to create the virtual environment. Now you can insta
 ### 1- Preparing ligand and protein file  
 
   a- Ligand and protein structure should be saved in .mol2 and .pdb format files respectively.  
-  b- Each ligand and protein files for a specific complex must be placed in a same folder. 
+  b- Each ligand and protein files for a specific complex must be placed in a same folder.
+  
+  for example:  
+  
+  ``` ./1a1e/1a1e_ligand.mol2
+      ./1a1e/1a1e_protein.pdb
+      ./1a4k/1a4k_ligand.mol2
+      ./1a4k/1a4k_protein.pdb
+  ```
   
 ### 2- Generating features  
   *generate_feature.py* is used for generating features of ET-Score:  
@@ -48,3 +56,12 @@ Which *env* is the location to create the virtual environment. Now you can insta
    python generate_feature.py -h  
    python generate_feature.py -d file_directory  
 ```
+### 3- Training Random Forest(RF) of Extra Trees(ET) based on generated features
+   *train_test.p* script is used for optimizing hyperparameters(*max_features*), training(both RF and ET) and predicting for a test set. -y flag lets the script to optimize hyperparameters.
+
+``` 
+   python train_test.py -h
+   python train_test.py features_file.xlsx test_list_file.txt binding_affinity_file.xlsx -y True
+```
+   
+   
