@@ -18,11 +18,12 @@ Dependecies:
 * joblib
 * scikit-learn  
   
-For Installing first make a virtual environment.                               
-on windows :                                                                                                                               
-python py -m venv env
-
-on macOS and Linux :                                                                                                                       
-python3 -m venv env  
-
+For Installing first make a virtual environment.  
+  
+On windows :                                                                                                                               
+```python py -m venv env```
+  
+On macOS and Linux :                                                                                                                       
+```python3 -m venv env``` 
+  
 Which env is the location to create the virtual environment.  
