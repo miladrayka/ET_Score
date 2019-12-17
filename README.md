@@ -9,10 +9,10 @@ Milad Rayka, Chemistry and Chemical Engineering Research Center of Iran, milad.r
 ## Installation
 Below package should be install for using ET-Score.
 Dependecies:
-*python >= 3.7.0
-*numpy 
-*scipy
-*pandas
-*biopandas >= 0.2.4
-*joblib
-*scikit-learn  
+* python >= 3.7.0
+* numpy 
+* scipy
+* pandas
+* biopandas >= 0.2.4
+* joblib
+* scikit-learn  
