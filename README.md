@@ -9,6 +9,7 @@ Milad Rayka, Chemistry and Chemical Engineering Research Center of Iran, milad.r
 ## Installation
 Below package should be install for using ET-Score.
 Dependecies:
+
 * python >= 3.7.0
 * numpy 
 * scipy
@@ -17,9 +18,11 @@ Dependecies:
 * joblib
 * scikit-learn  
   
-For Installing first make a virtual environment :                              
+For Installing first make a virtual environment.                               
 on windows :                                                                                                                               
-python py -m venv env                                                                                                                       
+python py -m venv env
+
 on macOS and Linux :                                                                                                                       
-python3 -m venv env                                                                                                                         
+python3 -m venv env  
+
 Which env is the location to create the virtual environment.  
