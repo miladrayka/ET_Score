@@ -20,20 +20,26 @@ Dependecies:
   
 For installing first make a virtual environment and activate it.  
   
-On windows:                                                                                                                               
+On windows:                                                                                                                            
 ```
    python py -m venv env
    .\env\Scripts\activate
 ```
   
-On macOS and Linux:                                                                                                                       
+On macOS and Linux:                                                                                                                    
 ```
    python3 -m venv env
    source env/bin/activate
 ```
   
-Which *env* is the location to create the virtual environment. Now you can install packages: 
+Which *env* is the location to create the virtual environment. Now you can install packages:   
 ```
    pip install *package_name*
 ```
+## Usage
+###1- Preparing ligand and protein file  
 
+  a- Ligand and protein structure should be saved in .mol2 and .pdb format files respectively.  
+  b- Each ligand and protein files for a specific complex must be placed in a same folder. 
+  
+###2- Generating features
