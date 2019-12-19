@@ -1,9 +1,10 @@
 
-from prody import *
 import os
 import glob
-from openbabel import openbabel
 import argparse
+from prody import *
+from openbabel import openbabel
+
 
 #Add Hydrogen atoms to pdb structure and separate ligand and protein and save them as .mol2 and .pdb respectively.
 
@@ -45,7 +46,7 @@ def extract(input_directory, output_directory):
 if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description = "Add Hydrogen atoms and separate ligand and protein")
-    parser.add_argument("input_directory",  help = "Folder of complex structures in pdb format")
+    parser.add_argument("inputs_directory",  help = "Folder of complex structures in pdb format")
     parser.add_argument("output_directory", help = "Output directory")
     args = parser.parse_args()
-    extract(args.input_directory, args.output_directory)
+    extract(args.inputs_directory, args.output_directory)
