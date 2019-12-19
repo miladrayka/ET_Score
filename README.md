@@ -17,9 +17,7 @@ Dependecies:
 * biopandas >= 0.2.4
 * joblib
 * scikit-learn
-* openbabel
-* prody  
-  
+   
 For installing first make a virtual environment and activate it.  
   
 On windows:                                                                                                                            
