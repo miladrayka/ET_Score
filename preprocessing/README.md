@@ -1,4 +1,4 @@
-### Tutorial for separating ligand and protein from *.pdb* comlex file
+### Tutorial for separating ligand and protein from *.pdb* complex file
    
    1- Installing open babel python :
       You can find instruction from [open babel site](https://open-babel.readthedocs.io/en/latest/UseTheLibrary/PythonInstall.html)
