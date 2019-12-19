@@ -1,5 +1,5 @@
 ## ET-Score
-###Tutorial for predicting pKd of new samples by using ET-Score  
+### Tutorial for predicting pKd of new samples by using ET-Score  
 
 *predict.py* and *et_score.sav* need for this task.  
 ``` 
