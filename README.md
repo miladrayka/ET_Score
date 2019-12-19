@@ -52,12 +52,6 @@ Which *env* is the location to create the virtual environment. Now you can insta
       ./1a4k/1a4k_ligand.mol2
       ./1a4k/1a4k_protein.pdb
   ```
-  c- If you don't have *.mol2* and *.pdb* for ligand and protein, you can use *preprocessing.py* script to
-  building them :
-```
-   python preprocessing.py -h
-   python preprocessing.py inputs_directory output_directory
-```
 ### 2- Generating features  
   *generate_feature.py* is used for generating features of ET-Score:  
 ``` 
