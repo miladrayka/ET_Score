@@ -16,7 +16,9 @@ Dependecies:
 * pandas
 * biopandas >= 0.2.4
 * joblib
-* scikit-learn  
+* scikit-learn
+* openbabel
+* prody  
   
 For installing first make a virtual environment and activate it.  
   
@@ -39,7 +41,7 @@ Which *env* is the location to create the virtual environment. Now you can insta
 ## Usage
 ### 1- Preparing ligand and protein file  
 
-  a- Ligand and protein structure should be saved in .mol2 and .pdb format files respectively.  
+  a- Ligand and protein structure should be saved in *.mol2* and *.pdb* format files respectively.  
   b- Each ligand and protein files for a specific complex must be placed in a same folder.
   
   for example:  
@@ -50,7 +52,12 @@ Which *env* is the location to create the virtual environment. Now you can insta
       ./1a4k/1a4k_ligand.mol2
       ./1a4k/1a4k_protein.pdb
   ```
-  
+  c- If you don't have *.mol2* and *.pdb* for ligand and protein, you can use *preprocessing.py* script to
+  building them :
+```
+   python preprocessing.py -h
+   python preprocessing.py inputs_directory output_directory
+```
 ### 2- Generating features  
   *generate_feature.py* is used for generating features of ET-Score:  
 ``` 
@@ -66,11 +73,11 @@ Which *env* is the location to create the virtual environment. Now you can insta
 ```
 
 ### 4- Use a trained model for predicting pKd values for new samples
-   If you don't want to train your model, you can simply use *et_model.sav* which is our best trained model or ET-Score. For doing thi  task *predict.py* should be used.
+   If you don't want to train your model, you can simply use *et_score.sav* which is our best trained model or ET-Score. For doing thi  task *predict.py* should be used.
     
  ``` 
     python predict.py -h
-    python predict.py -m et_model.sav -d file_directory
+    python predict.py -m et_score.sav -d file_directory
     
 ``` 
    
