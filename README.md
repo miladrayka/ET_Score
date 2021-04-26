@@ -4,8 +4,13 @@ A scoring function based on Extra Trees algorithm for predicting ligand-protein 
 <p><img src="https://user-images.githubusercontent.com/56152301/116047322-32ec2800-a689-11eb-8b8a-999ee8323952.png" width="650" height="350"></p>
 
 ## Contact 
+
 Milad Rayka, Chemistry and Chemical Engineering Research Center of Iran, milad.rayka@yahoo.com
-Dr.Rohoullah Firouzi, Chemistry and Chemical Engineering Research Center of Iran [Group page](http://ccerci.ac.ir/?siteid=2&pageid=388&mid=103)
+
+Dr.Rohoullah Firouzi, Chemistry and Chemical Engineering Research Center of Iran, Physical Chemistry, Faculty Member [Group page](http://ccerci.ac.ir/?siteid=2&pageid=388&mid=103)
+
+Dr.Mohammad Hossein Karimi-jafari, University of Tehran, Bioinformatics, Faculty Member
+ 
 
 ## Citation
 ...
