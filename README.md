@@ -1,7 +1,7 @@
 # ET-Score
 A scoring function based on Extra Trees algorithm for predicting ligand-protein binding affinity. PDBbind 2016v refined set minus core set is used for training ET-Score and core set is used as an independent test set. 
 
-<p><img src="https://user-images.githubusercontent.com/56152301/116047322-32ec2800-a689-11eb-8b8a-999ee8323952.png" width="650" height="400" style="vertical-align:middle"></p>
+<p><img src="https://user-images.githubusercontent.com/56152301/116047322-32ec2800-a689-11eb-8b8a-999ee8323952.png" width="650" height="400" style="float:right"></p>
 
 ## Contact 
 Milad Rayka, Chemistry and Chemical Engineering Research Center of Iran, milad.rayka@yahoo.com
