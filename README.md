@@ -6,14 +6,11 @@ A scoring function based on Extra Trees algorithm for predicting ligand-protein 
 ## Contact 
 
 Milad Rayka, Chemistry and Chemical Engineering Research Center of Iran, milad.rayka@yahoo.com
-
-Dr.Rohoullah Firouzi, Chemistry and Chemical Engineering Research Center of Iran, Physical Chemistry, Faculty Member [Group page](http://ccerci.ac.ir/?siteid=2&pageid=388&mid=103)
-
-Dr.Mohammad Hossein Karimi-jafari, University of Tehran, Bioinformatics, Faculty Member
  
-
 ## Citation
-...
+
+[ET-score: Improving Protein-ligand Binding Affinity Prediction Based on Distance-weighted Interatomic Contact Features Using Extremely Randomized Trees Algorithm](https://onlinelibrary.wiley.com/doi/full/10.1002/minf.202060084)
+
 ## Installation
 Below packages should be installed for using ET-Score.
 Dependecies:
