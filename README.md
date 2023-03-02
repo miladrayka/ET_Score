@@ -5,7 +5,7 @@ A scoring function based on Extra Trees algorithm for predicting ligand-protein 
 
 ## Contact 
 
-Milad Rayka, Chemistry and Chemical Engineering Research Center of Iran, milad.rayka@yahoo.com
+Milad Rayka, milad.rayka@yahoo.com
  
 ## Citation
 
