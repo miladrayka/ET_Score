@@ -70,7 +70,7 @@ Which *env* is the location to create the virtual environment. Now you can insta
 ```
 
 ### 4- Use a trained model for predicting pKd values for new samples
-   If you don't want to train your model, you can simply use *et_score.sav* which is our best trained model or ET-Score. For doing thi  task *predict.py* should be used. 
+   If you don't want to train your model, you can simply use *et_score.sav* which is our best trained model or ET-Score (Download from [FigShare](https://figshare.com/articles/software/ET-Score/23684538)). For doing thi  task *predict.py* should be used. 
    Hydrogens should be added to both ligands and proteins. 
     
  ``` 
