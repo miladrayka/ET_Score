@@ -88,6 +88,4 @@ Furthermore, `Files.7z` is provided in this repository to fully reproduce these 
 - The exact YAML environment specification file
 - The reproduction code, prediction outputs, and ground-truth labels
 - The feature vector file
-    python predict.py -h
-    python predict.py -m et_score.sav -d file_directory
    
