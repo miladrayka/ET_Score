@@ -73,8 +73,8 @@ Which *env* is the location to create the virtual environment. Now you can insta
 ### 4- Use a trained model for predicting pKd values for new samples
    If you don't want to train your model, you can simply use *et_score.sav*, which is our best-trained model or ET-Score (Download from [FigShare](https://figshare.com/articles/software/ET-Score/23684538)). For doing this task, *predict.py* should be used. 
    Hydrogens should be added to both ligands and proteins. 
-    
- ```
+
+
 ### 5- Note on Reproducibility
 
 A recent publication, "Critical Artifacts Improve Reproducibility of Protein-Ligand Binding Affinity Prediction Models on CASF-2016" ([paper](https://pubs.acs.org/doi/10.1021/acs.jcim.6c01192)), reported a significantly degraded performance for ET-Score (PCC of 0.385) along with divide-by-zero errors. These findings apply only to incompatible dependency versions and do not reflect the performance of ET-Score under the correct environment specified in the Installation section.
@@ -88,6 +88,4 @@ When run with the exact dependency versions listed in the Installation section, 
 - The feature vector file
     python predict.py -h
     python predict.py -m et_score.sav -d file_directory
-    
-``` 
    
