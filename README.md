@@ -83,7 +83,7 @@ A recent publication, "Critical Artifacts Improve Reproducibility of Protein-Lig
 
 When run with the exact dependency versions listed in the Installation section, ET-Score executes without errors and achieves a PCC of 0.793 on the CASF-2016 benchmark, consistent with the original publication.
 
-**Furthermore, `Files.7z` is provided in this repository to fully reproduce these results.** It contains:
+Furthermore, `Files.7z` is provided in this repository to fully reproduce these results. It contains:
 
 - The exact YAML environment specification file
 - The reproduction code, prediction outputs, and ground-truth labels
